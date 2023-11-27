@@ -2,17 +2,18 @@
 
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+  noblank: false
+  url: 'https://github.com/rmonterodev'
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+  link: 'mailto:rmontero@gmail.com'
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: CV
+  icon: "fa-solid fa-file-invoice"
+  noblank: false
+  url: 'https://online-cv.rmontero.me/'
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
