@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Constructor Design Pattern"
-categories: "JS Design Pattern"
-tags: frontend js array object javascript
+title:  Constructor
+categories: Javascript Design-Patterns
+tags: frontend js object javascript patterns
 ---
 
-I started the journey of reading this book: "Learning Javascript Design Patterns" by Addy Osmani and find it very interesting. This is will be my first time on reading this formally in order to apply those best practices in my daily basis web development which is fascinating because it would improve a lot my coding style and understand a common way to communicate famous patters with other developer mates.
+I started the journey of reading this book: "Learning Javascript Design Patterns" by Addy Osmani and find it very interesting. This is will be my first time on reading this formally in order to apply best practices in my daily basis web development which is fascinating because it would improve a lot my coding style and understand a common way to communicate famous patterns with other developes mates.
 
 Below I going to show you an exercise based in this pattern stated in the book:
 
