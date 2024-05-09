@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Constructor
+title:  Constructor Design Pattern
 categories: Javascript Design-Patterns
 tags: frontend js object javascript patterns
 ---
