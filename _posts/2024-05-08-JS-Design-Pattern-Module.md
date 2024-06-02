@@ -11,8 +11,8 @@ In the book mentioned 4 options for implementing modules:
 
 - Object Literal Notation.
 - The Module Pattern.
-- AMD modules.
-- CommonJs modules.
+- AMD modules (We'll be covered in the next post).
+- CommonJs modules (We'll be covered in the next post).
 
 We will to look a those 4 deeply in the next sections:
 
