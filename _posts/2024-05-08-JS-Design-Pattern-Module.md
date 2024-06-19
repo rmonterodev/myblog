@@ -27,6 +27,8 @@ It's an object described as a simple set of comma-separated names and values pai
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+As you see, it will keep the code functionality wrapped by an object separating the context from the global scope.
+
 <br />
 *Module Pattern*
 
@@ -37,3 +39,6 @@ With this pattern, it will allow us to expose only the public API keeping everyt
 Here we have an example for this:
 
 <iframe width="100%" height="300px" src="https://stackblitz.com/edit/stackblitz-starters-c79uwj?embed=1&file=myModule.js&theme=dark&view=both&terminalHeight=0"></iframe>
+
+
+In the future posts, I'll talk about the AMD modules and CommonJs modules, since there a lot to cover in detail.
