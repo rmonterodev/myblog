@@ -2,7 +2,7 @@
 layout: post
 title:  Module Design Pattern
 categories: Javascript Design-Patterns
-tags: frontend js javascript patterns
+tags: frontend js javascript patterns module
 ---
 
 This a great way to keep project code cleanly separated and organized by different categories. It would help a lot a team of developers to browse between a bunch of files in order to reach a specific funcionality to add or improve.
