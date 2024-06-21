@@ -5,7 +5,7 @@ categories: Javascript Design-Patterns
 tags: frontend js javascript patterns singleton
 ---
 
-Its design that restricts the instantiation of a class to one object. This is useful when only one object is required to be used across the system.
+It's a design that restricts the instantiation of a class to one object. This is useful when only one object is required to be used across the system. This single instance can be used by different parts of the application, which makes Singletons useful for managing global state in an application.
 
 **Singleton** differ from **static classes** because they require cetain data that may not be available during initialization time. 
 
