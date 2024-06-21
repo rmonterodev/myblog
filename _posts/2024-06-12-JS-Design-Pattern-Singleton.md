@@ -17,4 +17,17 @@ In the below example, you can take a look in the main.js file on how is trying t
 
 <iframe width="100%" height="800px" src="https://stackblitz.com/edit/vitejs-vite-ulcuwq?embed=1&file=counter.js&theme=dark&view=both&terminalHeight=0"></iframe>
 
-When using the decrement feature, it is trying to use the second instance of counter but it being inmediately referenced to the unique existent instance.
+When using the decrement feature, it is trying to use the second instance of counter but it's being inmediately referenced to the unique existent instance.
+
+**Drawbacks**
+
+Because of its simple implementation, we tend to overuse it. Therefore, nowadays, it’s considered to be an anti-pattern. For the following reasons:
+
+- It violates the Single Responsibility Principle. It has at least two responsibilities – making sure only one instance and contains business logic.
+- They're global variables, everyone can access them. Moreover, looks they're not inmutable.
+- Promotes hidden dependencies and making them hard to test.
+
+**Alternatives**
+
+- Dependency injections.
+- Factory Pattern.
