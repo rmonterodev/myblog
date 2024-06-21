@@ -9,4 +9,12 @@ It's a design that restricts the instantiation of a class to one object. This is
 
 **Singleton** differ from **static classes** because they require cetain data that may not be available during initialization time. 
 
-ES6 allows us to create a global instance of Javascript class that is instantiated once through a module export, making its access to it more explicit and controlled and differentiates it from other global variables. It cannot create a new class instance but can read/modify the instance using public get and set previously defined in the class. When attemting to create a new instance, it will simply return a reference of an existent object, if not it will create an instance.
+ES6 allows us to create a global instance of Javascript class that is instantiated once through a module export, making its access to it more explicit and controlled and differentiates it from other global variables. 
+
+It cannot create a new class instance but can read/modify the instance using public get and set previously defined in the class. When attemting to create a new instance, it will simply return a reference of an existent object, if not it will create an instance.
+
+In the below example, you can take a look in the main.js file on how is trying to create a second instance but it automatically returns a reference of the existent instance.
+
+<iframe width="100%" height="800px" src="https://stackblitz.com/edit/vitejs-vite-ulcuwq?embed=1&file=counter.js&theme=dark&view=both&terminalHeight=0"></iframe>
+
+When using the decrement feature, it is trying to use the second instance of counter but it being inmediately referenced to the unique existent instance.
