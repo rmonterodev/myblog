@@ -29,5 +29,5 @@ Because of its simple implementation, we tend to overuse it. Therefore, nowadays
 
 **Alternatives**
 
-- Dependency injections.
-- Factory Pattern.
+- Dependency injections. This way, we'd be aware of dependencies a method or another class needs in order to function properly.
+- Factory Pattern for long-living objects. We can cover it later in another post.
