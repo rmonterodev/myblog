@@ -7,7 +7,9 @@ tags: frontend js javascript patterns singleton
 
 This design is known as the one that allows us to create objects based on a blueprint/template from an existing object through cloning. In this way we can re-use the properties and methods of the prototype object as well as adding new ones as needed.
 
-In the below example, you can take a look in the main.js file:
+In the below example, you can take a look in the script.js file and the html preview:
+
+<iframe width="100%" height="800px" src="https://stackblitz.com/edit/stackblitz-starters-fdf9ru?embed=1&file=script.js&theme=dark&view=both&terminalHeight=0"></iframe>
 
 
 **Advantages**
