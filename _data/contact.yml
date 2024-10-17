@@ -8,7 +8,7 @@
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
-  link: 'mailto:info@rmontero.me'
+  link: 'mailto:developer@rmontero.me'
 
 - type: CV
   icon: "fa-solid fa-file-invoice"
